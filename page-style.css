@@ -1,12 +1,12 @@
 html {background-color:#d1a46d}
 main {
-		background-color:#992d1a;
-		color:#e88a0e;
-		padding: 50px;
+	background-color:#992d1a;
+	color:#e88a0e;
+	padding: 50px;
 	}
 th {
-		background-color:#992d1a;
-		color:#e88a0e
+	background-color:#992d1a;
+	color:#e88a0e
 	}
 
 ul {
@@ -15,6 +15,7 @@ ul {
 	padding:1px;
 	font-size:0px;
 }
+
 button.current-page {
 	padding: 35px;
 	background-color: #95f21b;
