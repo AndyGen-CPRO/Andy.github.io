@@ -1,5 +1,36 @@
 html {background-color:#d1a46d}
-main {background-color:#992d1a}
-main {color:#e88a0e}
-th {background-color:#992d1a}
-th {color:#e88a0e}
+main {
+		background-color:#992d1a;
+		color:#e88a0e;
+		padding: 50px;
+	}
+th {
+		background-color:#992d1a;
+		color:#e88a0e
+	}
+
+ul {
+	flex:1;
+	background-color: #35874b;
+	padding:1px;
+	font-size:0px;
+}
+button.current-page {
+	padding: 35px;
+	background-color: #95f21b;
+	color: #2d703f;
+}
+
+button {
+	flex: 1;
+	padding:35px;
+	color: #b2d1ba;
+	font-family: times, serif;
+	font-size: 25px;
+	background-color:#2d703f;
+}
+
+button:hover {
+	background-color:yellowgreen;
+}
+
