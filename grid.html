@@ -4,44 +4,45 @@
 	<head>
 		<title>Grids</title>
 		<style>
+			
 		body {
-		width:30%;
-		margin: auto;
-		}
-		
-		 .container {
-        display: grid;
-        grid-template-areas:
-          "grid1 grid1 grid2 ."
-		  "grid1 grid1 grid2 grid3"
-		  "grid5 grid5 grid6 grid6"
-		  "grid4 . grid6 grid6";
-		grid-template-rows: 1fr 1fr 1fr 1fr;
-		grid-gap:10px;
-		}
-		article.item1 {grid-area: grid1}
-		
-		article.item2 {grid-area: grid2}
-		
-		article.item3 {grid-area: grid3}
-		
-		article.item4 {grid-area: grid4}
-		
-		article.item5 {grid-area: grid5}
-		
-		article.item6 {grid-area: grid6}
-		
-		article.item1, article.item6{
-			border: 4px solid green;
+			width:30%;
+			margin: auto;
 			}
-		article.item2, article.item5{
-			
-			border: 4px solid yellow;
-			}
-		article.item3, article.item4{
-			
-			border: 4px solid red;
-			}
+		
+		.container {
+		        display: grid;
+		        grid-template-areas:
+		          "grid1 grid1 grid2 ."
+				  "grid1 grid1 grid2 grid3"
+				  "grid5 grid5 grid6 grid6"
+				  "grid4 . grid6 grid6";
+				grid-template-rows: 1fr 1fr 1fr 1fr;
+				grid-gap:10px;
+				}
+				article.item1 {grid-area: grid1}
+				
+				article.item2 {grid-area: grid2}
+				
+				article.item3 {grid-area: grid3}
+				
+				article.item4 {grid-area: grid4}
+				
+				article.item5 {grid-area: grid5}
+				
+				article.item6 {grid-area: grid6}
+				
+				article.item1, article.item6{
+					border: 4px solid green;
+					}
+				article.item2, article.item5{
+					
+					border: 4px solid yellow;
+					}
+				article.item3, article.item4{
+					
+					border: 4px solid red;
+				}
 		<link rel="stylesheet" href="page-style.css"/>	
 		</style>
 	</head>
